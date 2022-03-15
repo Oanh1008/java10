@@ -1,0 +1,54 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.mysql.cj.xdevapi.Statement;
+
+import connection.Dbconnection;
+import persistence.ItemGroup;
+
+public class ItemGroupDao {
+	public List<ItemGroup> getAll() {
+		List<ItemGroup> iGroups= new ArrayList<>();
+		String sql = "select MaLoai, TenLoai " + " from loaihang";
+		Connection conn = Dbconnection.getConnection();
+		ResultSet rs=null;
+		java.sql.Statement st=null;
+		try {
+			 st = conn.createStatement();
+
+			rs = st.executeQuery(sql);
+			// ResultSet List<T> T: columns alias
+			// iterator row by row
+			while (rs.next()) {
+				ItemGroup ig= new ItemGroup(rs.getInt(1), rs.getString(2));
+				iGroups.add(ig);
+			}
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally {
+			try {
+				rs.close();
+				st.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		return iGroups;
+	}
+	public static void main(String[] args) {
+		ItemGroupDao iGD= new ItemGroupDao();
+		for(ItemGroup i:iGD.getAll()) {
+			System.out.println(i);
+		}
+	}
+}

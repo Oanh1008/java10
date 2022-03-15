@@ -1,0 +1,21 @@
+package view;
+
+import java.util.List;
+
+import persistence.ItemGroup;
+import service.ItemGroupSerVice;
+
+public class App {
+	private static ItemGroupSerVice itemGroupSerVice;
+	
+	
+	// initial Object... convention
+	static {
+		itemGroupSerVice = new ItemGroupSerVice();
+	}
+	public static void main(String[] args) {
+
+		List<ItemGroup> itGroupAll= itemGroupSerVice.getAll();
+		itGroupAll.forEach(System.out::println);
+	}
+}

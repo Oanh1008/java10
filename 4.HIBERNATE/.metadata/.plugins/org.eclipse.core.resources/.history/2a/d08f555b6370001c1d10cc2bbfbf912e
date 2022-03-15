@@ -1,0 +1,30 @@
+package dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.cache.spi.support.AbstractReadWriteAccess.Item;
+import org.hibernate.query.NativeQuery;
+
+import persistence.ItemGroup;
+import utils.HibernateUtils;
+
+public class HibernateItemGroupDao extends AbtractHibernateDao implements ItemGroupDao  {
+
+	public List<ItemGroup> getAll() {
+		
+		List<ItemGroup> result= new ArrayList<>();
+		String sql="select * from loaihang";
+		Session session= openSession(); // open thread
+		
+		NativeQuery<ItemGroup> query= session.createNativeQuery(sql);
+		result=query.getResultList();
+		
+		return result;
+		
+	}
+
+	
+	
+}

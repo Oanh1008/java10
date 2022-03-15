@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\Workplace\java10\4.HIBERNATE\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+4192462366.index
+3993503225.index

@@ -1,0 +1,22 @@
+package service;
+
+import java.util.List;
+
+// service
+//1. get data from dao layer
+//2. process logic
+//3 return data to view
+
+import dao.ItemGroupDao;
+import persistence.ItemGroup;
+
+public class ItemService {
+	private ItemGroupDao itemGroupDao;
+	
+	public ItemService() {
+		itemGroupDao= new ItemGroupDao();
+	}
+	public List<ItemGroup> getAll(){
+		return itemGroupDao.getAll();
+	}
+}

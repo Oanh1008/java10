@@ -1,0 +1,17 @@
+package service;
+
+import java.util.List;
+
+import dao.ItemGroupDao;
+import persistence.ItemGroup;
+
+public class ItemService {
+	private ItemGroupDao itemGroupDao;
+	
+	public ItemService() {
+		itemGroupDao= new ItemGroupDao();
+	}
+	public List<ItemGroup> getAll(){
+		return itemGroupDao.getAll();
+	}
+}

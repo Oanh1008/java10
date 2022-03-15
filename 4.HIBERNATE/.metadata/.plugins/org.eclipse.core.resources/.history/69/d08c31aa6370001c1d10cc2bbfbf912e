@@ -1,0 +1,30 @@
+package persistence;
+
+public class ItemGroup {
+	private Integer igrId;
+	private String name;
+	public ItemGroup() {
+	}
+	public ItemGroup(Integer igrId, String name) {
+		this.igrId = igrId;
+		this.name = name;
+	}
+	public Integer getIgrId() {
+		return igrId;
+	}
+	public void setIgrId(Integer igrId) {
+		this.igrId = igrId;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	@Override
+	public String toString() {
+		return "ItemGroup [igrId=" + igrId + ", name=" + name + "]";
+	}
+	
+	
+}
