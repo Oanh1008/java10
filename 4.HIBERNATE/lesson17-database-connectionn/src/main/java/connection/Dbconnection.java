@@ -3,21 +3,21 @@ package connection;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
 
 public class Dbconnection {
 	private static Connection connection;
-	private static String DRIVER ="com.mysql.cj.jdbc.Driver";
-	private static String URL = "jdbc:mysql://localhost:3306/shoppingdata";
-	private static String USER = "root";
-	private static String PASS = "10082001";
+	
 
 	public static Connection getConnection() {
+		
 		if (connection == null) {
 			// driver
+			Properties props= DbProvider.getConfig();
 			try {
-				Class.forName(DRIVER);
+				Class.forName(props.getProperty("DRIVER"));
 
-				connection = DriverManager.getConnection(URL, USER, PASS);
+				connection = DriverManager.getConnection(props.getProperty("URL"),props.getProperty("USER"), props.getProperty("PASSWORD"));
 
 			} catch (ClassNotFoundException | SQLException e) {
 				e.printStackTrace();
