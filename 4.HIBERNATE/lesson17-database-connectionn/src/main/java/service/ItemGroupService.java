@@ -21,4 +21,16 @@ public class ItemGroupService {
 	public List<ItemGroup> getItemGroup(){
 		return itemGroupDao.getAll();
 	}
-}
+	
+	public ItemGroup getItemGroup(int id){
+		return itemGroupDao.getItemGroup(id);
+	}
+	
+	public List<ItemGroup> getItemGroup(String name){
+		return itemGroupDao.getItemGroup(name);
+	}
+	
+	public boolean save(ItemGroup itemGroup) {
+		return itemGroupDao.save(itemGroup);
+	}
+	}

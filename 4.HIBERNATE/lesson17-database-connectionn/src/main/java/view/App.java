@@ -22,6 +22,20 @@ public class App {
 		// get all item group 
 		List<ItemGroup>igrs= itemGroupService.getItemGroup();
 		igrs.forEach(System.out::println);
+		System.out.println("========================");
+		ItemGroup igrsId= itemGroupService.getItemGroup(3);
+		System.out.println(igrsId);
+		
+		System.out.println("========================");
+		List<ItemGroup>igrsName= itemGroupService.getItemGroup("banh keo");
+		igrsName.forEach(System.out::println);
+		
+		System.out.println("========================");
+		boolean save= itemGroupService.save(new ItemGroup(22, "ItemGroup22"));
+		System.out.println("inserted: "+save);
+		
+		itemGroupService.getItemGroup().forEach(System.out::println);
+		
 		
 	}
 }

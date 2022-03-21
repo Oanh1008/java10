@@ -989,3 +989,65 @@ org.eclipse.core.runtime.CoreException: Launch configuration App (1) references 
 2022-03-16 16:17:20,126 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
 2022-03-16 16:17:20,127 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-03-16 16:17:20,127 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-19 09:54:34,803 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-03-20 10:53:40,454 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-03-21 08:37:01,281 [Worker-37: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 08:37:01,325 [Worker-37: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 08:37:01,327 [Worker-37: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 08:37:01,327 [Worker-37: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-21 08:38:04,965 [Worker-37: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 08:38:04,965 [Worker-37: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 08:38:04,967 [Worker-37: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 08:38:04,967 [Worker-37: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-21 08:41:47,167 [Worker-32: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 08:41:47,167 [Worker-32: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 08:41:47,168 [Worker-32: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 08:41:47,169 [Worker-32: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-21 08:42:25,894 [Worker-43: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 08:42:25,895 [Worker-43: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 08:42:25,897 [Worker-43: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 08:42:25,897 [Worker-43: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-21 08:42:59,231 [Worker-32: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 08:42:59,231 [Worker-32: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 08:42:59,234 [Worker-32: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 08:42:59,235 [Worker-32: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-21 08:44:05,252 [Worker-42: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 08:44:05,252 [Worker-42: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 08:44:05,254 [Worker-42: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 08:44:05,254 [Worker-42: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-21 09:06:10,126 [Worker-51: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:06:10,127 [Worker-51: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 09:06:10,128 [Worker-51: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:06:10,128 [Worker-51: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-21 09:07:25,140 [Worker-46: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:07:25,140 [Worker-46: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 09:07:25,147 [Worker-46: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:07:25,148 [Worker-46: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-21 09:08:15,691 [Worker-50: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:08:15,691 [Worker-50: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 09:08:15,693 [Worker-50: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:08:15,693 [Worker-50: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-21 09:10:34,774 [Worker-46: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:10:34,774 [Worker-46: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 09:10:34,775 [Worker-46: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:10:34,775 [Worker-46: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-21 09:32:29,621 [Worker-62: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:32:29,621 [Worker-62: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 09:32:29,622 [Worker-62: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:32:29,622 [Worker-62: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-21 09:45:50,948 [Worker-67: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:45:50,949 [Worker-67: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 09:45:50,950 [Worker-67: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:45:50,950 [Worker-67: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-21 09:47:55,524 [Worker-67: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:47:55,524 [Worker-67: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 09:47:55,526 [Worker-67: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:47:55,526 [Worker-67: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-21 09:49:18,322 [Worker-68: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:49:18,322 [Worker-68: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 09:49:18,322 [Worker-68: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:49:18,324 [Worker-68: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
+2022-03-21 09:49:36,706 [Worker-67: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:49:36,706 [Worker-67: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\main\resources
+2022-03-21 09:49:36,707 [Worker-67: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-21 09:49:36,707 [Worker-67: Launching App (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Workplace\java10\4.HIBERNATE\lesson17-database-connectionn\src\test\resources
