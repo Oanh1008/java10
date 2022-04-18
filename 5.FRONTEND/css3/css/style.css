@@ -1,9 +1,10 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
+
+.ls{
+    list-style: none;
+    list-style-image:url(images/OIP.jpg) ;
+    list-style-position: inside;
+}
 
 
 .sign {
@@ -20,7 +21,7 @@
     font-size: 30px;
     font-weight: 400;
     text-transform: capitalize;
-    color: blue;
+    color:  rgb(34,23,255  )
 
 }
 .style2{
@@ -38,4 +39,31 @@
     color: white;
     text-align: center;
     line-height: 70px;
+}
+.fwb{
+    font-weight: 700;
+
+}
+.color-red{
+    font-weight: 700;
+    color: red;
+}
+#ci-selector{
+    font-style: italic;
+}
+/* Float */
+.float-left-block{
+    width: 30%;
+    height: 70px;
+    background-color: #f00;
+    float:left;
+}
+.float-right-block{
+    width: 70%;
+    height: 70px;
+    background-color: #0f0;
+    float:right;
+}
+.float-text-2{
+    clear: both;
 }
