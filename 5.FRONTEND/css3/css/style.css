@@ -1,4 +1,58 @@
+/* Page 1 css */
+.w2-h1{
+    width: 200px;
+    min-height: 100px;
+}
+.w6-h3{
+    width: 600px;
+    min-height: 300px;
+}
+.container{
+    border: 5px dashed red;
+    padding:  10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.element{
+    border: 2px solid blue;
+}
+.block-list{
+    border: 5px solid red;
+    background-image: url(images/bgrct.png);
+    background-size: cover;
+  
+    /*  */
 
+    /* background-attachment: fixed;
+      background-repeat: no-repeat;
+    background-position: center  center; */
+}
+.block{
+    border: 2px solid green;
+    box-sizing: border-box;
+    
+   
+    margin: 40px auto;
+}
+/* Position*/
+.pos-element{
+    width: 200px;
+    height: 140px;
+}
+.p1{
+    background-color: orange;
+}
+.p2{
+    background-color: green;
+    position: relative;
+    left: 50px;
+    bottom: 20px ;
+}
+.p3{
+    background-color: blue;
+}
+
+/* index.html */
 
 .ls{
     list-style: none;
