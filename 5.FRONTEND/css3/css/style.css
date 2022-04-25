@@ -1,62 +1,141 @@
 /* Page 1 css */
-.w2-h1{
+.w2-h1 {
     width: 200px;
     min-height: 100px;
 }
-.w6-h3{
+
+.w6-h3 {
     width: 600px;
     min-height: 300px;
 }
-.container{
+
+.container {
     border: 5px dashed red;
-    padding:  10px;
+    padding: 10px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    position: fixed;
+    right: 8px;
+    top: 8px;
+
 }
-.element{
+
+.element {
     border: 2px solid blue;
 }
-.block-list{
+
+.block-list {
     border: 5px solid red;
     background-image: url(images/bgrct.png);
     background-size: cover;
-  
+
     /*  */
 
     /* background-attachment: fixed;
       background-repeat: no-repeat;
     background-position: center  center; */
 }
-.block{
+
+.block {
     border: 2px solid green;
     box-sizing: border-box;
-    
-   
+
+
     margin: 40px auto;
 }
+
 /* Position*/
-.pos-element{
+.pos-list {
+    width: 600px;
+    border: 2px solid gray;
+    margin: 40px auto;
+    position: relative;
+}
+
+.pos-element {
     width: 200px;
     height: 140px;
 }
-.p1{
+
+.p1 {
+    background-color: orange;
+    position: relative;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.p2 {
+    /*Contrast: 
+    1.Parent  >>> relative
+    2.Sub  >>> absolute*/
+    background-color: green;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.p3 {
+    background-color: blue;
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+/*
+Display
+*/
+.display-list {
+    width: 600px;
+    border: 2px solid #ececec;
+}
+
+.display-list div {
+    display: block;
+}
+.block-element {
+    width: 200px;
+    height: 140px;
+}
+.d1 {
     background-color: orange;
 }
-.p2{
+
+.d2 {
     background-color: green;
-    position: relative;
-    left: 50px;
-    bottom: 20px ;
+    /*
+    set visible
+
+    */
 }
-.p3{
+
+.d3 {
     background-color: blue;
+}
+
+.gradient {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(98deg, #e2822d 0%, #207cca 50%, #2989d8 50%, #2989d8 50%, #914e6a 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+/*Border-radius */
+.brs{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.bsd{
+    /* offset-x offset: y blur color;*/
+    box-shadow:  20px -20px 10px aqua inset;
 }
 
 /* index.html */
 
-.ls{
+.ls {
     list-style: none;
-    list-style-image:url(images/OIP.jpg) ;
+    list-style-image: url(images/OIP.jpg);
     list-style-position: inside;
 }
 
@@ -70,54 +149,63 @@
     font-family: 'Square Peg', cursive;
     font-family: 'Updock', cursive;
 }
+
 /* Text type */
-.style1{
+.style1 {
     font-size: 30px;
     font-weight: 400;
     text-transform: capitalize;
-    color:  rgb(34,23,255  )
-
+    color: rgb(34, 23, 255)
 }
-.style2{
+
+.style2 {
     font-size: 42px;
     text-decoration: line-through;
     color: blue;
     opacity: 0.8;
 }
+
 .nav-block {
     height: 70px;
     width: 400px;
     background: black;
 }
-.nav-item{
+
+.nav-item {
     color: white;
     text-align: center;
     line-height: 70px;
 }
-.fwb{
+
+.fwb {
     font-weight: 700;
 
 }
-.color-red{
+
+.color-red {
     font-weight: 700;
     color: red;
 }
-#ci-selector{
+
+#ci-selector {
     font-style: italic;
 }
+
 /* Float */
-.float-left-block{
+.float-left-block {
     width: 30%;
     height: 70px;
     background-color: #f00;
-    float:left;
+    float: left;
 }
-.float-right-block{
+
+.float-right-block {
     width: 70%;
     height: 70px;
     background-color: #0f0;
-    float:right;
+    float: right;
 }
-.float-text-2{
+
+.float-text-2 {
     clear: both;
 }
