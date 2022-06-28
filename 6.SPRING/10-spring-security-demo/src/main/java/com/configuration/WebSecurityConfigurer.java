@@ -18,19 +18,30 @@ public class WebSecurityConfigurer extends WebSecurityConfigurerAdapter {
 		// store in memory
 		auth.inMemoryAuthentication()
 				.withUser(users.username("john").password("test123").roles("EMLOYEE"))
-				.withUser(users.username("mary").password("test123").roles("EMLOYEE,MANAGER"))
-				.withUser(users.username("susan").password("test123").roles("EMLOYEE,ADMIN"));
+				.withUser(users.username("mary").password("test123").roles("EMLOYEE","MANAGER"))
+				.withUser(users.username("susan").password("test123").roles("EMLOYEE","ADMIN"));
 	}
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests()
+			.antMatchers("/static/**").permitAll()
+			.antMatchers("/").hasRole("EMLOYEE")
+			.antMatchers("/leaders/**").hasRole("MANAGER")
+			.antMatchers("/system/**").hasRole("ADMIN")
 		    .anyRequest()
 		    .authenticated()
-		    .and()
+		   .and()
 		    .formLogin() 
 		    .loginPage("/signin")// default / login GET
 		    .loginProcessingUrl("/signin")// def/ login POST
-		    .permitAll();
+		    .permitAll()
+		   .and()
+		    .logout()
+		    .permitAll()
+		   .and()
+		   	.exceptionHandling()
+		   	.accessDeniedPage("/403");
+		
 		
 	}
 }

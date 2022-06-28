@@ -29,7 +29,7 @@ public class WebAppConfigurer implements WebMvcConfigurer {
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		// <mvc:resources location="/resources/"
 		// mapping="/resources/**"></mvc:resources>
-		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
+		registry.addResourceHandler("/static/**").addResourceLocations("/static/");
 	}
 
 }

@@ -1,8 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
 
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ include file="/WEB-INF/taglib/import.jsp" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,13 +17,8 @@
 <link
 	href="https://getbootstrap.com/docs/4.0/examples/signin/signin.css"
 	rel="stylesheet" crossorigin="anonymous" />
-<style type="text/css">
-.center {
-	text-align: center;
-	color: red;
-	font-family: sans-serif;
-}
-</style>
+<link href="${contextPath}/static/css/style.css"  rel="stylesheet" >
+
 </head>
 <body>
 	<div class="container">
@@ -35,6 +27,9 @@
 			action="/10-spring-security-demo/signin">
 			<c:if test="${param.error!=null}">
 				<p class="bg-error">Bad Credentials</p>
+			</c:if>
+			<c:if test="${param.logout !=null }">
+				<p class="text-white bg-success center">Logout Successful</p> 
 			</c:if>
 			<h2 class="form-signin-heading center">Login Page</h2>
 			<p>
